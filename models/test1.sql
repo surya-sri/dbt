@@ -21,4 +21,4 @@ LEFT JOIN edh.lt_advertiser_category_master lacm ON lacm.advertiser_category_mas
 LEFT JOIN edh.lt_advertiser_master lam ON lam.advertiser_master_key = lad.advertiser_master_key
 LEFT JOIN edh.lt_advertiser_master_parent lamp ON lamp.advertiser_master_parent_key = lam.advertiser_master_parent_key
 LEFT JOIN edh.lt_advertiser_corporate lac ON lac.advertiser_corporate_key = lamp.advertiser_corporate_key
-LEFT JOIN edh.lt_advertiser_category_group lacg ON lad.advertiser_category_key = lacg.advertiser_category_group_key;
+LEFT JOIN edh.lt_advertiser_category_group lacg ON lad.advertiser_category_key = lacg.advertiser_category_group_key
