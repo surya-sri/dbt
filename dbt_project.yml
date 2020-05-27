@@ -1,0 +1,7 @@
+name: string
+
+version: version
+
+profile: profilename
+
+source-paths: [directorypath]
