@@ -1,0 +1,4 @@
+name:'test1'
+version:'0.0.1'
+profile:fox_fng_networks
+source_paths:["models"]
